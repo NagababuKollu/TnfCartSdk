@@ -16,7 +16,7 @@ import dagger.hilt.android.migration.OptionalInject
 
 @OptionalInject
 @AndroidEntryPoint
-class SampleFragment : Fragment() {
+public class SampleFragment : Fragment() {
 
     companion object {
         fun newInstance() = SampleFragment()
